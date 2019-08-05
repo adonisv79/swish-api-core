@@ -1,0 +1,39 @@
+{
+  "name": "swish-api-core",
+  "version": "1.0.0",
+  "description": "SWISH Secured API based on EXPRESS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adonisv79/swish-api-core.git"
+  },
+  "keywords": [
+    "swish",
+    "api",
+    "cor",
+    "adon"
+  ],
+  "author": "Adonis Lee Villamor <adonisv79@gmail.com> (http://www.bytecommander.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adonisv79/swish-api-core/issues"
+  },
+  "homepage": "https://github.com/adonisv79/swish-api-core#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-session": "^1.16.2",
+    "express-swish-protocol": "^0.9.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "coveralls": "^3.0.5",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "jest": "^24.8.0"
+  }
+}
